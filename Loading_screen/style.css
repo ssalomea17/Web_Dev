@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+  }
+  
+  .ph_1{
+font-weight: bold;
+color: rgb(147, 0, 0);
+  }
+
+  .bold_text{
+    font-weight: bold;
+    text-decoration-style: double;
+    color: rgb(236, 95, 95);
+  }
+
+  .loading {
+     max-width: 50%;
+     line-height: 1.5;
+     font-size: 20px;
+     font-weight: lighter;
+     text-align: center;
+  }
+    
+  .loading__anim {
+    width: 50px;
+    height: 50px;
+    border:  7px solid rgba(236, 95, 95, 0.25);
+    border-left-color:  rgb(147, 0, 0);
+    border-top-color: rgba(147, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+    animation: rotate 600ms infinite linear;
+  }
+  
+  @keyframes rotate {
+    100% {
+      -webkit-transform: rotate3d(0, 0, 1, 180deg);
+      transform: rotate3d(0, 0, 1, 360deg);
+    }
+  }

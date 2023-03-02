@@ -8,6 +8,7 @@ body {
   .ph_1{
 font-weight: bold;
 color: rgb(147, 0, 0);
+font-size: 25px;
   }
 
   .bold_text{
@@ -27,9 +28,9 @@ color: rgb(147, 0, 0);
   .loading__anim {
     width: 50px;
     height: 50px;
-    border:  7px solid rgba(236, 95, 95, 0.25);
+    border:  7px solid rgb(236, 95, 95, 0.25);
     border-left-color:  rgb(147, 0, 0);
-    border-top-color: rgba(147, 0, 0);
+    border-top-color: rgb(147, 0, 0);
     border-radius: 50%;
     display: inline-block;
     animation: rotate 600ms infinite linear;
@@ -40,4 +41,13 @@ color: rgb(147, 0, 0);
       -webkit-transform: rotate3d(0, 0, 1, 180deg);
       transform: rotate3d(0, 0, 1, 360deg);
     }
+  }
+
+  footer{
+    display: block;
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(236, 95, 95);
+    color: white;
+
   }

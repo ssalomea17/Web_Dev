@@ -1,22 +1,24 @@
+/* style entire body */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100px;
   }
-  
+ 
+/* style paragraph_1  */
   .ph_1{
-font-weight: bold;
-color: rgb(147, 0, 0);
-font-size: 25px;
+    font-weight: bold;
+    color: rgb(147, 0, 0);
+    font-size: 25px;
   }
-
+/* style bold_text from p2 */
   .bold_text{
     font-weight: bold;
     text-decoration-style: double;
     color: rgb(236, 95, 95);
   }
-
+/* loading  */
   .loading {
      max-width: 50%;
      line-height: 1.5;

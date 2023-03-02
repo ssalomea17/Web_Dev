@@ -6,7 +6,7 @@ body {
     min-height: 100px;
   }
  
-/* style paragraph_1  */
+/* style paragraph_1 */
   .ph_1{
     font-weight: bold;
     color: rgb(147, 0, 0);
@@ -18,7 +18,7 @@ body {
     text-decoration-style: double;
     color: rgb(236, 95, 95);
   }
-/* loading  */
+/* loading */
   .loading {
      max-width: 50%;
      line-height: 1.5;
@@ -26,7 +26,7 @@ body {
      font-weight: lighter;
      text-align: center;
   }
-    
+/* loading animation */
   .loading__anim {
     width: 50px;
     height: 50px;
@@ -37,19 +37,10 @@ body {
     display: inline-block;
     animation: rotate 600ms infinite linear;
   }
-  
+/* rotation for the circle */
   @keyframes rotate {
     100% {
       -webkit-transform: rotate3d(0, 0, 1, 180deg);
       transform: rotate3d(0, 0, 1, 360deg);
     }
-  }
-
-  footer{
-    display: block;
-    text-align: center;
-    padding: 3px;
-    background-color: rgb(236, 95, 95);
-    color: white;
-
   }
